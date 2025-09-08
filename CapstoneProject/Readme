@@ -1,0 +1,43 @@
+## 📊 Overview
+This project demonstrates the creation of interactive dashboards using **IBM Cognos Analytics**.  
+The dataset used is derived from a developer survey and contains information about technologies respondents have worked with, technologies they want to learn, and demographic details.
+
+## link of dashboard please check it 
+https://us1.ca.analytics.ibm.com/bi/?perspective=dashboard&pathRef=.my_folders%2Fcapstone%2Bproject&action=view&mode=dashboard
+
+**Dataset source:** [survey_data_updated.csv]
+
+The project consists of **3 dashboards (3 tabs)**:
+1. **Current Technology Usage**
+2. **Future Technology Trend**
+3. **Demographics**
+
+## 📈 Dashboards & Visualizations
+
+### 1️⃣ Current Technology Usage
+Template: 2 x 2 rectangle areas  
+
+- **Panel 1:** Top 10 `LanguageHaveWorkedWith` → *Bar chart* (with labels, title).  
+- **Panel 2:** Top 10 `DatabaseHaveWorkedWith` → *Column chart* (with labels, title).  
+- **Panel 3:** Top 10 `PlatformHaveWorkedWith` → *Word cloud* (words, size, color, title).  
+- **Panel 4:** Top 10 `WebFrameHaveWorkedWith` → *Hierarchy bubble chart* (bubbles, size, color, title).  
+
+---
+
+### 2️⃣ Future Technology Trend
+Template: 2 x 2 rectangle areas  
+
+- **Panel 1:** Top 10 `LanguageWantToWorkWith` → *Bar chart* (with labels, title).  
+- **Panel 2:** Top 10 `DatabaseWantToWorkWith` → *Column chart* (with labels, title).  
+- **Panel 3:** Top 10 `PlatformWantToWorkWith` → *Tree map chart* (area hierarchy, size, heat, contrast labels, title).  
+- **Panel 4:** Top 10 `WebFrameWantToWorkWith` → *Hierarchy bubble chart* (bubbles, size, color, title).  
+
+---
+
+### 3️⃣ Demographics
+Template: 2 x 2 rectangle areas  
+
+- **Panel 1:** Respondent distribution by `Age` → *Pie chart* (segments, size, % display, title).  
+- **Panel 2:** Respondent count by `Country` → *Map chart* (locations, location color, title).  
+- **Panel 3:** Respondent distribution by `FormalEducation` → *Line chart* (x = education, y = count, labels, markers, title).  
+- **Panel 4:** Respondent count by `Age`, classified by `Education Level` → *Stacked bar chart* (bars, length, color, labels, title).  
